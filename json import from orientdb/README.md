@@ -7,7 +7,7 @@
 
 ####  1. Prerequire  
 
-##### 1) exported from MongoDB database CSV formmated  
+##### 1) exported from MongoDB database CSV formmated file 
 
 
 
