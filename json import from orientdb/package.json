@@ -1,0 +1,9 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "fs": "0.0.1-security",
+    "orientjs": "^2.2.7"
+  }
+}
