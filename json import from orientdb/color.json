@@ -1,0 +1,27 @@
+{
+  "color": "black",
+  "category": "hue",
+  "type": "primary",
+  "code": {
+    "rgba": [255,255,255,1],
+    "hex": "#000"
+  }
+}
+{
+  "color": "white",
+  "category": "222",
+  "type": "primary",
+  "code": {
+    "rgba": [255,255,255,1],
+    "hex": "#000"
+  }
+}
+{
+  "color": "Yellow",
+  "category": "333",
+  "type": "primary",
+  "code": {
+    "rgba": [255,255,255,1],
+    "hex": "#000"
+  }
+}
