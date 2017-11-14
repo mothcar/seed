@@ -38,7 +38,7 @@ var orientHost = "localhost";
 var orientPort = 2424;
 var orientUser = "admin";
 var orientPassword = "admin";
-var orientDbName = "autobot";
+var orientDbName = "o2";
 
 if(process.argv.length >= 8){
 	orientHost = process.argv[4]
@@ -65,6 +65,11 @@ var finished = false;
 
 var insertElement = function(data){
 	queue++;
+
+	// console.log("aaaaa : ", {floor:data['desc.floor'], metaDesc:data['desc.metaDesc'], metaPhoto:data['desc.metaPhoto'], metaTitle:data['desc.metaTitle']})
+	// console.log('data :', data);
+	// [data['desc.floor']
+
 	db.insert().into(className).set({
 		_id: data._id,
 		action: data.action,
